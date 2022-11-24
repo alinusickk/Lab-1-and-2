@@ -1,0 +1,290 @@
+body {
+  background-color: #fffefc;
+  width:100%; 
+  margin: 0;
+}
+.container1{
+  width: 100%;
+  height: 47em; 
+}
+.plantImage {
+  height: 47em;
+  width: auto;
+}
+.box-left-side-photo {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+}
+.navbar {
+    display: flex;
+    height: 5em;
+    justify-content: flex-end;
+    padding-right: 80px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.barChild{
+    list-style: none;
+    max-height: 1.3em;
+    max-width: auto;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.children{
+    display: flex;
+    align-items: center; 
+}
+.rectangle1 {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 8em;
+    color:#156963; 
+    background-color: #fffefc;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.rectangle2 {
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 8em;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #fcfbfa;
+    display: inline-block;
+    background-color: #156963;
+}
+.nadpis{
+  display: flex;
+  margin-top: 5em;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-end;
+  padding-right: 150px;
+  z-index: 1;
+}
+.nadpisBlock{
+  justify-content: flex-start;
+}
+.bigGreen{
+  font-family: 'Montserrat';
+  font-size: 76px;
+  color: #156963;
+  font-weight: 500;
+}
+.underGreen{
+  color: #2C1500;
+  font-size: 17px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  opacity: 0.8;
+  line-height: 30px;
+  padding-left: 2px;
+}
+.fourBlocksSpace {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  align-items: center;
+  height: 350px;
+  width: 95%;
+  
+}
+.blockForCentering{
+  display:flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.miniBlock {
+  display: inline-block;
+  height: 170px;
+  width: 294px;
+  border: 1px solid #E0E0E0;
+}
+.iconInMini{
+  height: 48px;
+  width: 48px;
+  padding-right:16px;
+  
+}
+.bigGreenInMini{
+  width: 100%;
+  height: 77px;
+  font-size: 16px;
+  display: flex;
+  padding-top: 10px;
+  justify-content: flex-start;
+  flex-direction: row;
+  color: #156963;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+.children2{
+  display: flex;
+  align-items: center;
+  padding-left:16px;
+  padding-right: 16px;
+}
+.underGreenInMini{
+font-family: 'Montserrat';
+padding-left: 16px;
+padding-right: 25px;
+padding-top: 7px;
+font-style: normal;
+color: #2C1500;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+.featuredTitle{
+  width: 90%;
+  height: 2em;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 2px solid #E0E0E0;
+}
+.plantsCollection{
+  padding-top: 30px;
+  width: 90%;
+  
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.sellBlock{
+  width:250px;
+  height: 330px;
+
+}
+.sellPhoto{
+  width:100%;
+  height: auto;
+}
+.sellTextBlock{
+  width:100%;
+  height: auto;
+  
+}
+.namePlants{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.IDR{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.buyMorePlantsBlock{
+  
+  width: 90%;
+  height: 650px;
+  display: flex;
+  margin-top: 50px;
+}
+.textAndMirror{
+  width: 850px;
+  height: 650px;
+
+}
+.shelves{
+  width: auto;
+  height: auto;
+
+}
+.shelvesPhoto{
+  height: 100%;
+  width: auto;
+}
+.buyMoreText{
+  width: 100%;
+  height: 320px;
+  
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.bigBuy{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+  color: #2C1500;
+}
+.smallBuy{
+  padding-top:20px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #2C1500;
+opacity: 0.8;
+  padding-right: 250px;
+}
+.mirror{
+  width:100%;
+  height: 310px;
+}
+.mirrorPhoto{
+  height: 100%;
+  width: auto;
+}
+.getBlock{
+  margin-top:100px;
+  width: 90%;
+  height: 400px;
+  background-color: #F3F4F6;
+}
+
+.footer {
+  margin-top: 100px;
+  border-top: 1px solid #B9D2D0;
+}
+
+.footer_main {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20rem;
+}
+
+.footer_right {
+  
+}
