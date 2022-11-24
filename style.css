@@ -259,8 +259,41 @@ opacity: 0.8;
   width: 90%;
   height: 400px;
   background-color: #F3F4F6;
+  display: flex;
+  justify-content: space-between;
+}
+.getTextBlock{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+color: #2C1500;
 }
 
+.handPhoto{
+  height: 400px;
+  width: auto;
+  padding-right: 50px;
+}
+.getLeft{
+  padding-left: 100px;
+  margin-top: 88px;
+}
+.visitButton{
+  background-color: #156963;
+  width: 152px;
+  height: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FAFEFE;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
 .footer {
   margin-top: 100px;
   border-top: 1px solid #B9D2D0;
@@ -268,6 +301,7 @@ opacity: 0.8;
 
 .footer_main {
   display: flex;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
@@ -280,11 +314,73 @@ opacity: 0.8;
 
 .footer_left {
   display: flex;
+  font-family: 'Montserrat';
   flex-direction: column;
   justify-content: space-between;
   width: 20rem;
 }
 
-.footer_right {
-  
+.company_name {
+  font-size: 24px;
+  color: #146963;
+  padding-bottom: 0.75em;
 }
+
+.slogan_left {
+  font-weight: 200px;
+  font-size: 16px;
+  padding-bottom: 1em;
+}
+
+.text_left {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+.footer_right {
+  display: flex;
+  font-family: 'Montserrat';
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.footer_list_section {
+  width: 8rem;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.footer_input_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.text_right {
+  font-size: 12px;
+  padding-bottom: 1em;
+}
+
+.input {
+  padding: 10px 100px 10px 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  font-size: 8px;
+  padding: 8px;
+  background: #176963;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Media Queries */
+
+/*iPhone*/
+@media (max-width: 600px) and (orientation: portrait) {
+  
+  }
+}
+
